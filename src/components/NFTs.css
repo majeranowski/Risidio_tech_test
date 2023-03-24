@@ -1,0 +1,166 @@
+.cards {
+    padding: 4rem;
+    background: #ffffff;
+  }
+  
+
+  .bar {
+   display: inline-flex;
+   align-items: center;
+  justify-content: center;
+  padding: 2% 47%;
+  gap: 100%;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(227, 227, 227, 1);
+  }
+
+  p.items {
+    color: rgba(80, 177, 181, 1);
+    font-weight: 900;
+    
+  }
+  
+
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+    
+  }
+  
+  .cards__wrapper {
+    position: relative;
+    margin: 50px 0 45px;
+    justify-content: center;
+  }
+  
+  .cards__items {
+    margin-bottom: 10px;
+    
+  }
+  
+  .cards__item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+    width: 200px;
+    
+  }
+  
+  .cards__item__link {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    
+    border-radius: 10px;
+    overflow: hidden;
+    text-decoration: none;
+    background-color: rgba(129, 129, 129, 0.12);
+    
+    
+  }
+  
+  .cards__item__pic-wrap {
+    position: relative;
+    width: 100%;
+    padding-top: 67%;
+    overflow: hidden;
+  }
+  
+
+  
+
+  
+  .cards__item__img {
+    position: absolute;
+    padding-left: 5%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    
+    width: 100%;
+    
+    height: 120%;
+    
+  }
+  
+  
+  
+  .cards__item__info {
+    padding-left: 5%;
+    
+    display: inline-flex;
+    gap: 50%;
+    line-height: 24px;
+    color: rgba(28, 27, 27, 1);
+    font-size: 8px;
+  }
+  .cards__item__info1 {
+    padding-left: 5%;
+    padding-bottom: 15%;
+   
+    display: inline-flex;
+    gap: 28%;
+    line-height: 24px;
+    color: rgba(28, 27, 27, 1);
+    font-size: 8px;
+  }
+  
+  .cards__item__text {
+    color: rgba(28, 27, 27, 1);
+    font-size: 12px;
+    line-height: 24px;
+    
+  }
+
+  .bottom, .bottom > p {
+    
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 3%;
+  font-style: normal;
+  }
+
+
+  .hero-btns {
+    margin-top: 32px;
+    width: auto;
+  }
+  
+  .hero-btns .btn {
+    margin: 6px;
+  }
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 84%;
+    }
+  }
+  
+  @media only screen and (min-width: 960px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 960px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+    .btn-mobile {
+        display: block;
+        text-decoration: none;
+      }
+    
+      .btn {
+        width: auto;
+      }
+  }
